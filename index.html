@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Taller TypeScript 1</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script type="module" src='./scripts/main.js'></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-center">TV Series</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <table class="table table-striped" id="tabla_series">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla_series_body"></tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <div id="series-detail" class="card" style="display: none;">
+                    
+                    <img id="series-image" src="" alt="Series Image">
+                    <h2 id="series-title"></h2>
+                    <p id="series-description"></p>
+                    <a id="series-link" href="" target="_blank"></a> <!-- Enlace clicable -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
